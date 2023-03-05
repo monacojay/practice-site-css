@@ -20,12 +20,13 @@ h1 {
 }
 
 /* flexbox parent container */
-section {
+.flex-container {
   display: flex;
 }
 
 /* flexbox child container */
 p {
+  flex-direction: column;
   padding: 10px;
   margin: 10px;
   background: aqua;
