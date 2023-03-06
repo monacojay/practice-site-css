@@ -19,15 +19,21 @@ h1 {
   margin: 0;
 }
 
-/* flexbox parent container */
-.flex-container {
+section {
   display: flex;
+  font-size: 24px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column-reverse;
+
 }
 
-/* flexbox child container */
-p {
-  flex-direction: column;
-  padding: 10px;
-  margin: 10px;
-  background: aqua;
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  margin: 15px;
+  width: 175px;
+  height: 175px;
 }
